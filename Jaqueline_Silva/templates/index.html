@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaqueline Silva - Blog</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='cadastrar.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/js-logo.png')}}" type="image/x-icon"> <!-- Isso faz com que fique uma imagem na aba -->
+</head>
+<body>
+    <header>
+        <img src="{{url_for('static', filename='img/js-logo.png')}}" class="logo" alt="Logo Jaqueline Silva">
+        <nav>
+            <a href="https://www.tiktok.com/@jaqueline.silva.web?_t=8ejIED8r94n&_r=1" target="_blank"><img src="{{url_for('static', filename='img/tiktok-logo.png')}}" class="redes-sociais" alt="Logo do Tiktok"></a>
+            <a href="https://twitter.com/jaque_silva_web?s=20" target="_blank"><img src="{{url_for('static', filename='img/twitter-logo.png')}}" class="redes-sociais" alt="Logo do Twitter"></a>
+            <a href="https://instagram.com/jaqueline.silva_web?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="{{url_for('static', filename='img/instagram-logo.png')}}" class="redes-sociais" alt="Logo do Instagram"></a>
+        </nav>
+    </header>
+    <main>
+        <section class="section_artigos section_descricao">
+            <article class="artigo_descricao">
+                <div>
+                    <img src="{{url_for('static', filename='img/prova-lapis.png')}}" alt="">
+                    <p>Jaqueline Silva é um blog sobre as atividades que nós tivemos na matéria de Projeto Profissional, com os professores Bruno, Ariane e Paula. Esse site teve iniciativa de 5 alunos do primeiro ano do ensino médio de uma escola chamada Senac.</p>
+                </div>
+                <div>
+                    <p>O Senac em que nós estudamos se localiza em São Leopoldo no Rio Grande do Sul. Os criadores do blog são: Amanda Luísa Ferreira; Bruno Nunes; Felipe Coimbra Rocha dos Santos; Guilherme Fries; e Marina Menezes de Oliveira</p>
+                    <img src="{{url_for('static', filename='img/prova-computador.png')}}" alt="">
+                </div>
+            </article>
+            <aside class="aside_descricao">
+                <nav>
+                    <details>
+                        <summary>Notícias</summary>
+                        <ul>
+                            <li><a href="/cadastrar">Cadastrar Notícias</a></li>
+                            <li><a href="/noticias">Notícias Cadastradas</a></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Parcerias</summary>
+                        <ul>
+                            <li>Senac</li>
+                            <li>Jornal Jornal</li>
+                            <li>Informe Geral</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Contato</summary>
+                        <ul>
+                            <li><a href="https://www.tiktok.com/@jaqueline.silva.web?_t=8ejIED8r94n&_r=1" target="_blank">Tik Tok</a></li>
+                            <li><a href="https://twitter.com/jaque_silva_web?s=20" target="_blank">Twitter</a></li>
+                            <li><a href="https://instagram.com/jaqueline.silva_web?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
+                        </ul>
+                    </details>
+                </nav>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
